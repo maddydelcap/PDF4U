@@ -1,0 +1,6 @@
+{
+  "name": "WE LOVE PDF",
+  "description": "A complete WE LOVE PDF utility platform featuring Merge, Split, Compress, AI Summarizer, Translate, OCR, watermark stamping, signatures, and secure multi-tier user dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
