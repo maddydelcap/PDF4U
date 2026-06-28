@@ -1,0 +1,132 @@
+{
+  "users": {
+    "admin-user-id": {
+      "id": "admin-user-id",
+      "email": "nassim.hrss@gmail.com",
+      "name": "Nassim H.",
+      "role": "admin",
+      "plan": "enterprise",
+      "filesProcessedToday": 0,
+      "dailyLimit": 9999,
+      "subscriptionExpiresAt": null,
+      "createdAt": "2026-06-28T09:47:49.264Z"
+    },
+    "demo-user-id": {
+      "id": "demo-user-id",
+      "email": "demo@pdfcraft.com",
+      "name": "Demo Account",
+      "role": "user",
+      "plan": "free",
+      "filesProcessedToday": 1,
+      "dailyLimit": 3,
+      "subscriptionExpiresAt": null,
+      "createdAt": "2026-06-28T09:47:49.264Z"
+    },
+    "guest-bolapynel": {
+      "id": "guest-bolapynel",
+      "email": "guest-bolapynel@docuflow.com",
+      "name": "Guest User",
+      "role": "user",
+      "plan": "guest",
+      "filesProcessedToday": 3,
+      "dailyLimit": 4,
+      "subscriptionExpiresAt": null,
+      "createdAt": "2026-06-28T10:10:13.567Z"
+    },
+    "guest-onpypbf23": {
+      "id": "guest-onpypbf23",
+      "email": "guest-onpypbf23@welovepdf.com",
+      "name": "Guest User",
+      "role": "user",
+      "plan": "guest",
+      "filesProcessedToday": 0,
+      "dailyLimit": 4,
+      "subscriptionExpiresAt": null,
+      "createdAt": "2026-06-28T11:46:04.936Z"
+    },
+    "guest-aionwx7zf": {
+      "id": "guest-aionwx7zf",
+      "email": "guest-aionwx7zf@welovepdf.com",
+      "name": "Guest User",
+      "role": "user",
+      "plan": "guest",
+      "filesProcessedToday": 0,
+      "dailyLimit": 4,
+      "subscriptionExpiresAt": null,
+      "createdAt": "2026-06-28T11:48:46.970Z"
+    }
+  },
+  "logs": [
+    {
+      "id": "log-2hpjncw4a",
+      "userId": "guest-bolapynel",
+      "fileName": "theworwords_converted.pdf",
+      "toolId": "word-to-pdf",
+      "toolName": "Word to PDF",
+      "sizeBytes": 583,
+      "status": "success",
+      "timestamp": "2026-06-28T10:42:53.093Z",
+      "downloadUrl": "#",
+      "details": {}
+    },
+    {
+      "id": "log-ex5kg6qg3",
+      "userId": "guest-bolapynel",
+      "fileName": "word-to-pdf_processed_theworwords.docx",
+      "toolId": "word-to-pdf",
+      "toolName": "Word to PDF",
+      "sizeBytes": 12228,
+      "status": "success",
+      "timestamp": "2026-06-28T10:37:53.739Z",
+      "downloadUrl": "#",
+      "details": {}
+    },
+    {
+      "id": "log-xa2pnddz1",
+      "userId": "guest-bolapynel",
+      "fileName": "word-to-pdf_processed_theworwords.docx",
+      "toolId": "word-to-pdf",
+      "toolName": "Word to PDF",
+      "sizeBytes": 12228,
+      "status": "success",
+      "timestamp": "2026-06-28T10:27:37.398Z",
+      "downloadUrl": "#",
+      "details": {}
+    },
+    {
+      "id": "log-1",
+      "userId": "demo-user-id",
+      "fileName": "tax_return_2025.pdf",
+      "toolId": "compress",
+      "toolName": "Compress PDF",
+      "sizeBytes": 4200100,
+      "status": "success",
+      "timestamp": "2026-06-28T07:47:49.264Z",
+      "downloadUrl": "#",
+      "details": {
+        "compressionRatio": "45% saved"
+      }
+    },
+    {
+      "id": "log-2",
+      "userId": "admin-user-id",
+      "fileName": "ai_blueprint.pdf",
+      "toolId": "ai-summarizer",
+      "toolName": "AI Summarizer",
+      "sizeBytes": 1540200,
+      "status": "success",
+      "timestamp": "2026-06-28T09:47:49.264Z",
+      "downloadUrl": "#",
+      "details": {
+        "keyPointsCount": 6
+      }
+    }
+  ],
+  "stats": {
+    "totalFilesProcessed": 151,
+    "totalUsers": 27,
+    "proUsersCount": 5,
+    "enterpriseUsersCount": 2,
+    "revenueThisMonth": 158
+  }
+}
